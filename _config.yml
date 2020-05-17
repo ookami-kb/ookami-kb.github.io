@@ -34,7 +34,7 @@ plugins:
 
 google_analytics: UA-19102123-9
 disqus:
-  shortname: ookami_kb
+  shortname: ookami-kb
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
