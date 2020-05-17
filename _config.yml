@@ -26,7 +26,7 @@ github_username:  ookami-kb
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
