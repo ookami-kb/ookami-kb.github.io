@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mainly Flutter and Android developer.
   Former full-stack developer, who doesn't believe that full-stack developers exist.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ookami-kb.github.io/"
+url: "https://ookami-kb.github.io"
 twitter_username: ookami_kb
 github_username:  ookami-kb
 linkedin_username: ookamikb
