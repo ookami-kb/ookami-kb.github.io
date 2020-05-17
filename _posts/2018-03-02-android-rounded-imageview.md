@@ -2,7 +2,7 @@
 layout: post
 title:  "Rounded image view in Android"
 date:   2018-03-02 11:00:00 +0200
-categories: android kotlin view
+categories: android
 ---
 
 The common use-case is like this: you need to get an image from some server, resize and cache it (you’re using Picasso for this, aren’t you?), make corners rounded (ok, this is not _the most_ popular use-case, but it’s what this article is about) and load it into view. So, how can we make rounded corners?

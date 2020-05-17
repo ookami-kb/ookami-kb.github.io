@@ -2,7 +2,7 @@
 layout: post
 title:  "Flutter: how to draw text along an arc"
 date:   2019-12-12 11:51:25 +0200
-categories: flutter tutorial
+categories: flutter
 ---
 
 For one of our side projects (highly experimental and written in Flutter for Web, by the way) I needed to implement something like this:

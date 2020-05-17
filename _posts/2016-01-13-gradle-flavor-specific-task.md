@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding flavor-specific tasks to Gradle"
 date:   2016-01-13 11:00:00 +0200
-categories: android kotlin view
+categories: android
 ---
 
 Suppose you have a multi-flavored project. Each flavor is a separate app, so you have to use separate `google-services.json` file for each flavor.
