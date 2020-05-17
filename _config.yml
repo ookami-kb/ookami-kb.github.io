@@ -32,6 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+show_excerpts: true
 google_analytics: UA-19102123-9
 disqus:
   shortname: ookami-kb
