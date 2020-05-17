@@ -16,19 +16,25 @@
 title: ookami.kb's blog
 email: ookami.kb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Mainly Flutter and Android developer.
+  Former full-stack developer, who doesn't believe that full-stack developers exist.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ookami-kb.github.io/"
 twitter_username: ookami_kb
 github_username:  ookami-kb
+linkedin_username: ookamikb
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 theme: minima
 plugins:
   - jekyll-feed
+
+google_analytics: UA-19102123-9
+disqus:
+  shortname: ookami_kb
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
