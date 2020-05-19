@@ -677,3 +677,5 @@ FlutterError.onError = (FlutterErrorDetails details) {
 That’s it! Of course, each of these sections can be discussed in a separate article (or even a book), so if you’re interested we can continue with this how-to series and share our experience in creating cross-platform apps that can be even better than native ones.
 
 ***To find out more about Mews and the dev team, check out our Github and follow us on [Twitter](https://twitter.com/MewsDevs) and [Facebook](https://www.facebook.com/MewsDevs/).***
+
+> Originally published at [developers.mews.com](https://developers.mews.com/intro-to-flutter-a-practical-guide-to-cross-platform-development/)
