@@ -11,7 +11,7 @@ This is actually a text version of my [online presentation](https://youtu.be/P1S
 
 ## Cross-platform development: are we there yet?
 
-First of all, let’s talk about cross-platform development in general. Why are there so many cross-platform frameworks, why does each framework promise to kill native development, and why, despite all of that, is native development still alive?
+First of all, let’s talk about [cross-platform development](https://developers.mews.com/multiplatform-apps-are-we-there-yet/) in general. Why are there so many cross-platform frameworks, why does each framework promise to kill native development, and why, despite all of that, is native development still alive?
 
 ### Cross-platform development: advantages
 
@@ -89,9 +89,9 @@ In Mews we love Flutter. And I’m not only speaking for myself, honestly. We us
 
 Another Flutter project that I’ve already mentioned is the UI library. We have big plans about open-sourcing it in the near future, so stay tuned.
 
-We are also using Flutter for different side projects: both to play with Flutter and to try some approaches that can be incorporated into our main app.
+We are also using Flutter for different [side projects](https://developers.mews.com/mews-challenge/): both to play with Flutter and to try some approaches that can be incorporated into our main app.
 
-And we are actively participating and organizing different meetups and workshops about Flutter, and writing blog posts.
+And we are actively participating and organizing different meetups and workshops about Flutter, and writing [blog posts](https://developers.mews.com/flutter-how-to-draw-text-along-arc/).
 
 So let’s now talk about our main Flutter application.
 
@@ -266,6 +266,8 @@ dependencies:
 ```
 
 And our last category of patterns that always comes out while aiming towards a clean architecture is dependency injection. There’re several libraries to choose from for that, our choice is `provider`. It’s actually a mix of state management and dependency injection library, but we’re using it for DI only.
+
+> We've also experimented with `inject.dart` – you can read about it [here](https://developers.mews.com/dependency-injection-in-flutter/) – but I wouldn't recommend it now, as it's not really FLutter way.
 
 As pretty much everything in Flutter is a widget, this library is not an exception. It’s a wrapping widget that gives you the way to define value or factory providers and later retrieve them in the underlying widgets.
 
@@ -673,3 +675,5 @@ FlutterError.onError = (FlutterErrorDetails details) {
 ***
 
 That’s it! Of course, each of these sections can be discussed in a separate article (or even a book), so if you’re interested we can continue with this how-to series and share our experience in creating cross-platform apps that can be even better than native ones.
+
+***To find out more about Mews and the dev team, check out our Github and follow us on [Twitter](https://twitter.com/MewsDevs) and [Facebook](https://www.facebook.com/MewsDevs/).***
