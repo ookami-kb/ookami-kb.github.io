@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Intro to Flutter: A practical guide to cross-platform development"
-date:   2020-05-17 11:00:00 +0200
+date:   2020-05-19 22:00:00 +0200
 categories: flutter
 ---
 
@@ -97,7 +97,7 @@ So let’s now talk about our main Flutter application.
 
 ### Flutter in Mews: Commander
 
-![](/assets/images/2020-05-18-intro-to-flutter/commander.png)
+![](/assets/images/2020-05-19-intro-to-flutter/commander.png)
 
 This app is a light version of our PMS that is for now mainly used by housekeepers and maintenance staff. From the developer point of view it implements the common set of features of business applications: calling APIs and displaying dynamic forms, receiving real-time updates via push notifications and websockets, managing localisations and so on.
 
@@ -394,7 +394,7 @@ We’re using some mix between pure `BLoC` model and `MVVM` approach: our BL com
 
 So in the center of it there is a view model that communicates with the widget. Widget knows only about its own view model. It listens to observable properties and builds UI of them, and uses methods of view model to send events. A view model in a simple case can change observable properties based on these events.
 
-![](/assets/images/2020-05-18-intro-to-flutter/architecture.png) 
+![](/assets/images/2020-05-19-intro-to-flutter/architecture.png) 
 
 In a more complex case view model can use some service (e.g. an API service) to retrieve some data. It sends a request and receives a response (it can be both synchronous and asynchronous request).
 
@@ -646,7 +646,7 @@ If it’s not possible or doesn’t seem to be reasonable you can at least defin
 
 When we’ve rewritten our app with Flutter, we’ve got this picture in Crashlytics:
 
-![](/assets/images/2020-05-18-intro-to-flutter/crashlytics.png)
+![](/assets/images/2020-05-19-intro-to-flutter/crashlytics.png)
  
 This doesn’t mean of course, that we’ve become perfect developers or that Flutter doesn’t allow you to make any error in your code. It’s about the way Flutter works: it’s actually very hard to make Flutter app crash. It can crash if there’s an error in native plugin or in native part of Flutter itself, but errors in your Dart code will trigger a red screen of death in debug mode, and be swallowed in production.
 
